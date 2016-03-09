@@ -45,3 +45,18 @@ group :development do
   gem 'spring'
 end
 
+
+group :test do
+  gem 'cucumber-rails' 
+  gem 'cucumber-rails-training-wheels'
+end
+
+# for Heroku deployment - as described in Ap. A of ELLS book
+group :development, :test do
+  #gem 'sqlite3'
+  #gem 'byebug'
+  gem 'database_cleaner'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'rspec-rails'
+end
