@@ -8,7 +8,7 @@ class StaticPagesController < ApplicationController
 
   end
   
-  def about
+  def login
     
   end
   
