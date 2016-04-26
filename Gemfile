@@ -63,3 +63,7 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec-rails'
 end
+
+group :test do
+  gem 'minitest-reporters'
+end
